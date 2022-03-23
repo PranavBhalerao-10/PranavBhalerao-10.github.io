@@ -1,0 +1,46 @@
+.employee_card {
+  background: #2d4fa8;
+  border-radius: 20px;
+  width: 288px;
+  height: 288px;
+  display: flex;
+  flex-direction: column;
+}
+
+.employee_container {
+  margin: 10px 20px;
+  position: relative;
+  display: flex;
+}
+.arrow_title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 75px;
+  line-height: 40px;
+  color: #ffbf4c;
+  padding: 30px auto;
+  height: 120px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.Number-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 100px;
+  line-height: 40px;
+  color: #ffbf4c;
+  padding-bottom: 30px;
+}
+.card_title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  color: white;
+  margin: 20px 50px;
+  justify-content: center;
+}

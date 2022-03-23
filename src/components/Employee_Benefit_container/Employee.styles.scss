@@ -1,0 +1,44 @@
+.hexagon_container {
+  clip-path: polygon(0% 15%, 50% 0%, 100% 15%, 100% 90%, 50% 100%, 0% 90%);
+  background: linear-gradient(
+    180deg,
+    rgba(166, 191, 255, 0.25) -0.31%,
+    rgba(238, 243, 255, 0.195) -0.3%,
+    rgba(101, 135, 224, 0.25) 50.37%,
+    rgba(232, 238, 255, 0.25) 100%
+  );
+  height: 1090px;
+  display: flex;
+  justify-content: center;
+}
+.benefit_container {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  margin-top: 60px;
+  flex-direction: column;
+}
+.need {
+  font-family: "PT Sans Caption";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 95px;
+  color: #ffbf4c;
+}
+.employeeimportance {
+  font-family: "PT Sans Caption";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 95px;
+  color: #513164;
+}
+.card_info {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 80px 80px;
+  & EmployeeCard {
+    margin: 20px 20px;
+  }
+}

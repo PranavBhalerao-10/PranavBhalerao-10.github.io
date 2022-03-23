@@ -1,0 +1,33 @@
+.testimonial_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.testimonial_comment {
+  clip-path: polygon(15% 0%, 85% 0%, 100% 50%, 85% 100%, 15% 100%, 0% 50%);
+  background: rgba(166, 191, 255, 0.25);
+  height: 400px;
+  width: 1000px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 80px;
+
+  & img {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+.testimonial_review {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 82px;
+
+  text-align: center;
+  letter-spacing: 0.18em;
+  margin: 0 70px;
+}

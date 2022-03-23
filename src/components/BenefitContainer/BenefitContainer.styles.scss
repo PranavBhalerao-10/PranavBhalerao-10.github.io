@@ -1,0 +1,27 @@
+.benefit_container {
+  display: flex;
+  & .benefit_content {
+    display: flex;
+    flex-direction: column;
+  }
+  & > img {
+    width: 150px;
+  }
+  & .benefit_title {
+    font-family: "PT Sans Caption";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 95px;
+    color: #513164;
+    text-align: center;
+  }
+  & .benefit__content {
+    font-family: "PT Sans Caption";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #513164;
+    line-height: 40px;
+  }
+}

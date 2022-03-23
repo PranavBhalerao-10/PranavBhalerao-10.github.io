@@ -1,0 +1,9 @@
+.trusted_companies {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  & img {
+    margin: 100px auto;
+  }
+}

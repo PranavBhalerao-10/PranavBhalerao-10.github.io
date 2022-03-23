@@ -1,0 +1,17 @@
+.Button {
+  background-color: #2d4fa8;
+  font-family: "PT Sans Caption";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 95px;
+  /* identical to box height, or 264% */
+
+  text-align: center;
+  border-radius: 20px;
+  color: #ffffff;
+}
+.button_container {
+  display: flex;
+  justify-content: center;
+}
